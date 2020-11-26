@@ -93,6 +93,7 @@ body
     background: #82A70C;
     border-radius: 5px;
     border:none;
+    cursor: pointer;
 }
 .plus 
 {
@@ -106,10 +107,62 @@ body
     background-position:center;
     background-size: 50% 3px,3px 50%; /*thickness = 2px, length = 50% (25px)*/
     background-repeat:no-repeat;
-  }
-  .addButtonText
-  {
+}
+.addButtonText
+{
     display:inline-block;
     font: normal 22px Roboto;
     color: #FFFFFF; 
 }
+.table-main
+{
+    width: 80%;
+    margin: 0 auto;
+    overflow: auto;
+}
+.table{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    min-width: 800px;
+}
+td,th{
+    text-align: left;
+    padding: 5px 8px;
+}
+th
+{
+    background: #42515f 0% 0% no-repeat padding-box;
+    height:50px;
+    font: normal normal medium 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 1;
+    border: 0px solid #dddddd;
+}
+tr
+{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    height:50px;
+}
+.dept-label 
+{
+    background-color: #e9fea5;
+    font: normal normal normal 14px/19px Roboto;
+    width: 57px;
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 13px;
+    text-align: center;
+    display: inline-block;
+}
+.action-label 
+{
+    padding-left:10px;
+    text-align: left;
+    display: inline-block;
+    cursor:pointer;
+}
+
