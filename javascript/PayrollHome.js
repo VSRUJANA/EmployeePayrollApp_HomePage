@@ -30,5 +30,5 @@ const createEmployeeTable = ()=>{
         </td>
     </tr>
     `;
-    document.querySelector(".employeeTable").innerHTML = innerHtml;
+    document.querySelector('#table-display').innerHTML = innerHtml;
 } 
